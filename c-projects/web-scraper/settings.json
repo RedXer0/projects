@@ -1,6 +1,0 @@
-{
-    "cmake.configureSettings":{
-        "CMAKE_TOOLCHAIN_FILE":
-        "[/home/minny/vcpkg]/scripts/buildsystems/vcpkg.cmake"
-    }
-}
