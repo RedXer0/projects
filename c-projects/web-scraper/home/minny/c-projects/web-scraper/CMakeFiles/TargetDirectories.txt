@@ -1,0 +1,2 @@
+/home/minny/c-projects/web-scraper/home/minny/c-projects/web-scraper/CMakeFiles/rebuild_cache.dir
+/home/minny/c-projects/web-scraper/home/minny/c-projects/web-scraper/CMakeFiles/edit_cache.dir
