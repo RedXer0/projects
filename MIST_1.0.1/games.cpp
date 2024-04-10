@@ -1,3 +1,7 @@
+/*
+this was the most annoying one to do and it's not even fully done yet.
+*/
+
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
@@ -11,24 +15,32 @@ void gamble();
 void game_list();
 int games(){
     int which_one;
-    std::cout << "hello xero" << std::endl;
+    std::string username;
+    printf("what would you like to be called?\n");
+    std::cin >> username; //gets your name
+    std::cout << "hello" << username << std::endl;
     std::cout << "what game do you want to play?" << std::endl;
-    game_list();
-    std::cin >> which_one;
-    if (which_one == 1){
-        guess_the_number();
-    }
-    if (which_one == 2){
-        guess_the_word();
-    }
-    if( which_one == 3){
-        gamble();
-    }
-    else {
+    game_list(); // prints list function
+    std::cin >> which_one; // takes user input
+    switch(which_one == 1){
+        case 1:
+            guess_the_number(); // goes to number guessing game if you choose 1
+            break;
+        case 2:
+            guess_the_word(); // goes to word guessing game if you pick 2
+            break;
+        case 3:
+            gamble(); // goes to gambling game if you pick 3
+            break;
+        default:
+            printf("no valid input now leaving\n"); // exits if you type in anything else.
+            break;
     }
     return 0;
 }
 
+
+// prints the list of games
 void game_list(){
     std::string list_of_games[3] = {"1. guess the number\n", "2. guess the word\n","3. gamble\n"};
 
@@ -37,19 +49,22 @@ void game_list(){
     }
 }
 
-void gamble(){
-    int money = 10000;
-    int bet;
-    while(true){
 
-        std::cout << "welcome xero you have :" << money << " in your account" << std::endl;
+// gambling game
+void gamble(){
+    int money = 10000; // gives you 10000 "money" to start off
+    int bet; // bet value
+    while(money > 0){
+
+        std::cout << "welcome you have :" << money << " in your account" << std::endl;
         std::cout << "enter your bet ammount" << std::endl;
-        std::cin >> bet;
+        std::cin >> bet; // bet amount input
 
         srand(time(NULL));
-        int result = rand() % 3 + 1;
+        int result = rand() % 3 + 1; // random number generator
+        printf(" %d\t%d\t%d\t\m", result); // prints numbers to screen lol
 
-        if (result == 1){
+        if (result == 1){ // kinda explains it's self lol
             std::cout << "you won $" << bet * 2 << "!" << std::endl;
             money += bet * 2;
         }
@@ -66,6 +81,8 @@ void gamble(){
     }
 }
 
+
+// word guessing game
 void guess_the_word(){
     std::string words[9] = {"apple", "cat", "dictionary", "summon", "bacon", "terminator", "computer", "knife", "Mist"};
     int guesses = 5;
@@ -103,6 +120,8 @@ void guess_the_word(){
     }
 }
 
+
+// unfair number guessing game
 void guess_the_number(){
     int user_number;
     int guesses = 10;
