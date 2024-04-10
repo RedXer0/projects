@@ -6,6 +6,7 @@
 void mist();
 void tasks();
 
+// main function for mist.cpp
 int list(){
   mist();
   tasks();
@@ -13,9 +14,10 @@ int list(){
 }
 
 void tasks(){
-  int colors[] = {31,32,33,34,35,36};
-  srand(time(NULL));
+  int colors[] = {31,32,33,34,35,36}; // colors
+  srand(time(NULL)); // random number generator 
 
+  // tasks array
   std::string tasks[1000] = {
     " 1.Tell a random joke!", 
     " 2.Check system specs!", 
@@ -34,15 +36,18 @@ void tasks(){
     " 15. Exit"
     };
 
-  for (int i = 0; i < 15; i++){
-    int random = rand() % 6;
+  // loops through a random assortment of colors and loops through the entire list until everything is printed to the screen.
+  for (int i = 0; i < 15; i++){ 
+    int random = rand() % 6; // random number generator with a range of 6 numbers.
     std::cout << "\033[" << colors[random] << "m" << tasks[i] << "\033" << std::endl;
     std::cout << "|--------------------" << std::endl;
   }
 }
 
+
+// it's just cool ascii art lol
 void mist(){
-  srand(time(NULL));
+  // array to make things easier plus it allows you to change the ascii art if you want.
   std::string mist[] = {
   "|-------------------------------|",
   "|███    ███ ██ ███████ ████████ |",
@@ -52,8 +57,10 @@ void mist(){
   "|██      ██ ██ ███████    ██    |",
   "|-------------------------------|\n"
   };
+
+  // loops through array until all of the array is printed to the screen
   for (int i = 0; i < 7; i++){
-    int color = 94;
+    int color = 94; // adds the color pink to the text
     std:: cout << "\033[" << color << "m" << mist[i] << "\033" << std::endl;
   }
 }
