@@ -6,8 +6,10 @@ the games.cpp file is the oldest of the files besides from mist so the code is k
 
 currently the joke files wont print properly without the underscores but im working on a solution rn.
 
-if you want the assistant to run in your terminal on startup simply put it into the bash.rc file.
-/path/to/mist (don't put in mist.cpp put in the executable).
+if you want the assistant to run in your terminal on startup simply put it into the 
+.bashrc file.
+/path/to/mist 
+(don't put in mist.cpp put in the executable).
 
 If you wanna change some things you can as long as yk what you're doing, you can also use mist as a sort of base for your own terminal assistant.
 
