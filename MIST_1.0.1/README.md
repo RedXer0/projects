@@ -1,4 +1,4 @@
-Mist is a personal terminal system with some flaws, I'll be updating her as time goes on but for rn she's pretty bare bones.
+Mist is a personal terminal assistant with some flaws, I'll be updating her as time goes on but for rn she's pretty bare bones.
 
 currently the jokes.txt and punchlines.txt files are in the beta stage, you can add all your own jokes and stuff but just remember that they're still being updated.
 
