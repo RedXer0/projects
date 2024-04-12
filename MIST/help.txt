@@ -1,0 +1,16 @@
+commands:
+type in "jokes" for mists personal jokes
+type in "create" to make files
+type in "games" for mists games
+type in "seek" for the file searcher
+type in "calc" for the calculator
+type in "hey" to talk to mist
+type in "out" to shutdown
+type in "up" to auto update
+type in "s" for sudo
+type in "auto" for an auto file downloader 
+type in "bak" to go back in a directory
+type in "mp3" to go to mists personal playlist
+type in "vs" to go to vscode
+type in "tube" to open youtube
+type in "gh" to open github
