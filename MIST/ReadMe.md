@@ -6,7 +6,7 @@ Welcome to MIST 1.1.0 so ik what you're thinking "what makes her different from 
 4. MIST 1.1.0 has a built in mp3 player. the code is still being worked on so the randomize function is a bit clunky rn but more updates will come in the future lol.
 
 ## Commands:
-you can find all of the commands in the [help.txt] file or you can just type in ``help_me`` into the terminal
+you can find all of the commands in the `help.txt` file or you can just type in ``help_me`` into the terminal
 
 ## Future of MIST
 Mist will slowly improve and get better the more better i get at c++
