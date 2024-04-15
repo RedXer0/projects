@@ -28,7 +28,7 @@ if(help_file.is_open()){
     help_file.close();
 }
 
-    for (int j = 0; j < 16; j++){
+    for (int j = 0; j < 23; j++){
         int ansi_colors = 34;
         std::string colors = "\033[";
         std::cout << colors << ansi_colors << "m" << help_array[j] << "\033" << std::endl;

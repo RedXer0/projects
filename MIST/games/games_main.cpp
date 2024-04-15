@@ -1,7 +1,7 @@
 #include <iostream>
 #include <thread>
 #include <chrono>
-#include "pantheon.cpp"
+#include "tic-tac-toe.cpp"
 #include "games.cpp"
 #include "slot_machine.cpp"
 #include "number_game.cpp"
@@ -29,7 +29,7 @@ int main(){
                 number_game();
                 break;
             case 3:
-                pantheon();
+                main1();
                 break;
             default:
                 printf("exiting now\n");

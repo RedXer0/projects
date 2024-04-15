@@ -23,7 +23,7 @@ void games_list(int colors, std::string ansi){
     std::string games_list[] = {
         "1. slot machine",
         "2. number guessing game",
-        "3. Pantheon sci-fi Adventure",
+        "3. tic-tac-toe",
     };
 
     for (int i = 0; i < 3; i++){

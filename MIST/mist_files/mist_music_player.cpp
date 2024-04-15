@@ -13,7 +13,7 @@
 #define SIZE 100000
 
 void Mists_Playlist();
-int main(){
+int music(){
     
     Mists_Playlist();
     return 0;
