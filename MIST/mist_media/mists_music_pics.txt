@@ -1,0 +1,13 @@
+tiv -w 25 -h 25 MIST/mist_media/shrex.jpg
+tiv -w 25 -h 25 MIST/mist_media/dolly.jpg
+tiv -w 25 -h 25 MIST/mist_media/jinx.jpg
+tiv -w 25 -h 25 MIST/mist_media/pantheon.jpg
+tiv -w 25 -h 25 MIST/mist_media/dolly.jpg
+tiv -w 25 -h 25 MIST/mist_media/pigs.jpg
+tiv -w 25 -h 25 MIST/mist_media/kult.jpg
+tiv -w 25 -h 25 MIST/mist_media/doomer.jpg
+tiv -w 25 -h 25 MIST/mist_media/kermit.jpeg
+tiv -w 25 -h 25 MIST/mist_media/jinx.jpg
+tiv -w 25 -h 25 MIST/mist_media/gir.jpg
+tiv -w 25 -h 25 MIST/mist_media/gir.jpg
+tiv -w 25 -h 25 MIST/mist_media/tom.jpg

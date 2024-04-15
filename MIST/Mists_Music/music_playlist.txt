@@ -1,0 +1,13 @@
+mpv /home/xero/MIST/Mists_Music/Music/All_Star.mp3
+mpv /home/xero/MIST/Mists_Music/Music/Because_Im_Awesome.mp3
+mpv /home/xero/MIST/Mists_Music/Music/Dirty_Little_Animals.mp3
+mpv /home/xero/MIST/Mists_Music/Music/27_Kids.mp3
+mpv /home/xero/MIST/Mists_Music/Music/High_School_Never_Ends.mp3
+mpv /home/xero/MIST/Mists_Music/Music/KIDS.mp3
+mpv /home/xero/MIST/Mists_Music/Music/KULT.mp3
+mpv /home/xero/MIST/Mists_Music/Music/Misery.mp3
+mpv /home/xero/MIST/Mists_Music/Music/Movin_Right_Along.mp3
+mpv /home/xero/MIST/Mists_Music/Music/Playground.mp3
+mpv /home/xero/MIST/Mists_Music/Music/Sk8er_Boi.mp3
+mpv /home/xero/MIST/Mists_Music/Music/The_Irony_of_Choking_on_a_Lifesaver.mp3
+mpv /home/xero/MIST/Mists_Music/Music/the_joke_isnt_funny_when_ur_the_punchline.mp3
