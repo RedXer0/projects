@@ -9,7 +9,6 @@
 #include <stdio.h>
 #include "mist_music_player.cpp"
 #include "/home/xero/MIST/mists_gimmicks/alphahex.cpp"
-#include "/home/xero/MIST/mists_gimmicks/for_xero_only.cpp"
 
 #define SIZE 100000
 
@@ -139,17 +138,6 @@ int main(){
             std::cout << response_array[random_number] << std::endl;
             system("hostname -i");
             printf("I TOLD YOU I HAD YOUR IP ADDRESS\n");
-            break;
-
-
-
-        case 15:
-            std::cout << chat_array[random_number] << std::endl;
-            std::getline(std::cin >> std::ws, your_input);
-            if (your_input == "i made you" || your_input == "i coded you"){
-                for_xero_only();
-            }
-            else {std::cout << response_array[random_number] << std::endl;}
             break;
 
         default:
