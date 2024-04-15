@@ -1,9 +1,16 @@
 ## New Features:
-Welcome to MIST 1.1.0 so ik what you're thinking "what makes her different from Mist 1.0.0"
-1. MIST 1.1.0 is fully interactive which means she won't just be a clunky file that only runs on startup but she'll implement herself into .bashrc file so you can run all of her features without having her take up the screen completely
-2. Unlike how MIST 1.0.0 has shitty code and really isn't customizable MIST 1.1.0 is fully customizable so you wont have to worry about messing up any of her code.
-3. Unlike MIST 1.0.0 MIST 1.1.0 doesn't fall apart if you modify one file because unlike MIST 1.0.0 MIST 1.1.0 has all of her files seperate (except the game files) so don't worry about messing anything up lol
-4. MIST 1.1.0 has a built in mp3 player. the code is still being worked on so the randomize function is a bit clunky rn but more updates will come in the future lol.
+Welcome to MIST 1.3.0 so ik what you're thinking "what makes her different from Mist 1.2.0 and why did you skip mist 1.2.0"
+***
+Well because 1.2.0 was basically jist the first half of 1.3.0... now that that is answered let's get to the features
+***
+#### Whats new?
+***
+* 4 new commands
+* some commands got changed in order to make room for the new commands, out was for shutting down but we i changed it to end in order to make room for the new logout feature (xfce logout exclusevly but you an change the file to whatever version of linux you use)
+* you can now boot into the terminal only or the gui
+* MIST 1.3.0 no longer fucks up your ``.bashrc`` file now all the commands are held in the ``.bash_aliases`` file
+* I added 20 new responses to the chat to mist file so now she has a bit more dialogue
+* I removed the PANTHEON sci fi adventure game because that will be an entierly seperate project from MIST and it was already way too big for the games so instead i updated the slot machine game and added a tic tac toe game instead.
 
 ## Commands:
 you can find all of the commands in the `help.txt` file or you can just type in ``help_me`` into the terminal
